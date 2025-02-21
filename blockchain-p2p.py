@@ -1,3 +1,10 @@
+#Como ejecutar P2P
+#Iniciar nodo:
+#python nombre_del_script.py
+#Iniciar en un nodo
+#curl -X POST http://127.0.0.1:5001/connect -H "Content-Type: application/json" -d '{"host":"127.0.0.1", "port":5000}'
+#Minar
+#curl -X POST http://127.0.0.1:5001/mine -H "Content-Type: application/json" -d '{"data":"Nuevo bloque de prueba"}'
 import hashlib
 import time
 import json
